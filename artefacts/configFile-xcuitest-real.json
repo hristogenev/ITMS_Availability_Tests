@@ -1,0 +1,55 @@
+{
+  "cloudURL": "demo.perfectomobile.com",
+  "securityToken": "",
+  "__itmsServerUrl": "https://itms2-us.perfectomobile.com",
+  "appPath": "./artefacts/PerfectoSwiftApp.ipa",
+  "testAppPath": "./artefacts/PerfectoSwiftAppUITests-Runner.ipa",
+  "devices": [
+    {
+      "platformName": "iOS",
+      "platformVersion": "17.*"
+    }
+  ],
+  "all_testMethodNames": [
+    "CustomerTests#testUninstallAppFromScreenAndThenInitXCUIApplication",
+    "EnvironmentTests#testEnvironmentVariableExists",
+    "LoginTests#testLoginFailsWithEmptyCredentials",
+    "LoginTests#testLoginFailsWithInvalidEmail",
+    "LoginTests#testLoginFailsWithValidEmailAndWrongPassword",
+    "LoginTests#testLoginWorksWithValidPerfectoEmailAndPassword",
+    "LoginTests#testLoginWorksWithValidPerforceEmailAndPassword",
+    "LoginTests#testTogglePasswordVisibilityShowsPassword",
+    "LoginTests#testLoginAsGuest",
+    "LoginTests#testCredentialsShouldBeClearedAfterLogout",
+    "LocationTests#testLocationMock",
+    "LocationTests#testAllowLocationPermissionsPopupShowsMap",
+    "LocationTests#testDenyLocationPermissionsPopupShowsError"
+  ],
+  "all__testClassNames": [
+    "PerfectoSwiftAppUITests.CustomerTests",
+    "PerfectoSwiftAppUITests.LoginTests",
+    "PerfectoSwiftAppUITests.EnvironmentTests",
+    "PerfectoSwiftAppUITests.LocationTests"
+  ],
+  "runUnitTests": false,
+  "runUITests": true,
+  "instrumentationEnvVars": [
+    "IS_PERFECTO=1"
+  ],
+  "takeScreenshotOnTestStep": true,
+  "generateHarFile": false,
+  "installationDetails": {
+    "preCleanUp": true,
+    "resign": true
+  },
+  "debug": false,
+  "postExecution": {
+    "uninstall": false
+  },
+  "testTimeout": 180000,
+  "jobName": "Perfecto-XCUITest-Availability-Real-Devices",
+  "jobNumber": 1,
+  "tags": [
+    "Xcode-15.2"
+  ]
+}

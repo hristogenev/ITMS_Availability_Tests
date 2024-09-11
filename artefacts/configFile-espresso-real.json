@@ -1,0 +1,32 @@
+{
+  "cloudURL": "demo.perfectomobile.com",
+  "securityToken": "",
+  "__itmsServerUrl": "https://itms2-us.perfectomobile.com",
+  "appPath": "./artefacts/app-debug.apk",
+  "testAppPath": "./artefacts/app-debug-androidTest.apk",
+  "devices": [
+    {
+      "platformName": "Android",
+      "_deviceName": "RF8N82SBA6H",
+      "__platformVersion": "13"
+    }
+  ],
+  "shard": false,
+  "runUnitTests": false,
+  "runUITests": true,
+  "androidX": true,
+  "androidOrchestrator": true,
+  "installationDetails": {
+    "preCleanUp": true
+  },
+  "instrumentationArgs": [
+    "clearPackageData=true"
+  ],
+  "debug": false,
+  "postExecution": {
+    "uninstall": false
+  },
+  "testTimeout": 180000,
+  "jobName": "Android-Espresso-Availability-Real-Devices",
+  "jobNumber": 40
+}

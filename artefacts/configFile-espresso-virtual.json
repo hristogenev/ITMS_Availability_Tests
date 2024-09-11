@@ -1,0 +1,37 @@
+{
+  "cloudURL": "demo.perfectomobile.com",
+  "securityToken": "",
+  "__itmsServerUrl": "https://itms2-us.perfectomobile.com",
+  "appPath": "./artefacts/app-debug.apk",
+  "testAppPath": "./artefacts/app-debug-androidTest.apk",
+  "devices": [
+    {
+      "platformName": "Android",
+      "_model": "",
+      "platformVersion": "15"
+    }
+  ],
+  "shard": false,
+  "runUnitTests": false,
+  "runUITests": true,
+  "androidX": true,
+  "androidOrchestrator": true,
+  "installationDetails": {
+    "preCleanUp": true
+  },
+  "instrumentationArgs": [
+    "clearPackageData=true"
+  ],
+  "__testMethodNames": [],
+  "__testClassNames": [],
+  "debug": false,
+  "postExecution": {
+    "uninstall": false
+  },
+  "preExecution": {
+    "screenOrientation": "landscape"
+  },
+  "testTimeout": 180000,
+  "jobName": "Android-Espresso-Availability-Virtual-Devices",
+  "jobNumber": 40
+}

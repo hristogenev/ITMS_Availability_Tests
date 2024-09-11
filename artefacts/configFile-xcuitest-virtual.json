@@ -1,0 +1,36 @@
+{
+  "cloudURL": "demo.perfectomobile.com",
+  "securityToken": "",
+  "__itmsServerUrl": "https://itms2-us.perfectomobile.com",
+  "xctestProductsPath": "./artefacts/PerfectoSwiftApp.xctestproducts",
+  "devices": [
+    {
+      "platformName": "iOS",
+      "platformVersion": "17.4"
+    }
+  ],
+  "_testClassNames": [
+    "PerfectoSwiftAppUITests.CustomerTests"
+  ],
+  "runUnitTests": false,
+  "runUITests": true,
+  "installationDetails": {
+    "preCleanUp": true,
+    "resign": false
+  },
+  "instrumentationEnvVars": [
+    "IS_PERFECTO=1"
+  ],
+  "debug": false,
+  "postExecution": {
+    "uninstall": false
+  },
+  "testTimeout": 60000,
+  "jobName": "Perfecto-XCUITest-Availability-Virtual-Devices",
+  "tags": [
+    "xctest"
+  ],
+  "projectName": "PerfectSwiftApp",
+  "projectVersion": "1.0",
+  "jobNumber": 27
+}

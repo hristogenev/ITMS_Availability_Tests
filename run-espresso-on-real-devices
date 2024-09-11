@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gradle perfecto-android-inst -PconfigFileLocation=artefacts/configFile-espresso-real.json

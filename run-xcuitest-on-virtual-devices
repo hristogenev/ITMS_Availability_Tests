@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gradle perfecto-xctest-vd -PconfigFileLocation=artefacts/configFile-xcuitest-virtual.json
