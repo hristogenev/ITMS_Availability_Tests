@@ -1,5 +1,5 @@
-# ITMS_Availability_Tests
-Ready-to-run scripts for checking the ITMS service availability.
+# ITMS Availability Tests
+## Ready-to-run scripts for checking the ITMS service availability.
 
 After cloning the repo, make sure:
 1. You have Gradle installed.
